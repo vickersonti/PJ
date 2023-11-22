@@ -1,0 +1,7 @@
+
+<ion-fab>
+    <ion-fab-button (click)="LoginComGoogle()">
+      <ion-icon name="add" *ngIf="!logado"></ion-icon>
+    </ion-fab-button>
+    <ion-img src={{userPhoto}}  *ngIf="logado"/>
+  </ion-fab>

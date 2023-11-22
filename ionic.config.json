@@ -1,0 +1,7 @@
+{
+  "name": "makeapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
